@@ -67,10 +67,13 @@ footer::after {
 
 	.col-3 {
 		width: 50%;
+        background-color: #fde509;
 	}
 
 	.col-1 {
 		width: 16.6666%;
+        color: white;
+        background-color: #333232;
 	}
 }
 
@@ -212,13 +215,13 @@ nav a {
 	text-decoration: none;
 	padding: .5em;
 	text-transform: uppercase;
-	color: #333232;
+	color: #f1f1f1;
 	font-size: .8rem;
 }
 
 nav a:hover,
 nav a:focus {
-	color: #333232;
+	color: #f800ec;
 }
 
 @media (min-width:60rem) {
