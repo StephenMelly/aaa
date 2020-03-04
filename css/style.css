@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
 
 * {
 	box-sizing: border-box;
@@ -7,7 +7,7 @@
 
 body {
 	margin: 0;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+	font-family: 'parisplus-std', sans-serif;
 	text-align: center;
 }
 
