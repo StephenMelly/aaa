@@ -11,7 +11,7 @@
 
 body {
   color: black;
-  background-color: var(--bg-third);
+  background-color: var(--bg-third); 
   margin: 0;
   padding: 0;
 }

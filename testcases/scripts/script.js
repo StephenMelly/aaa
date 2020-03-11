@@ -5,4 +5,4 @@ function openTab(tabName) {
     x[i].style.display = "none";
   }
   document.getElementById(tabName).style.display = "block";
-}
+} 
