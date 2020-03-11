@@ -5,12 +5,13 @@
   --text-secondary: #fd007f;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
+  --bg-third: #888888;
   --transition-speed: 600ms;
 }
 
 body {
   color: black;
-  background-color: #fde509;
+  background-color: var(--bg-third);
   margin: 0;
   padding: 0;
 }
@@ -33,12 +34,7 @@ main {
   padding: 1rem;
 }
 
-.logoMain{
-    float: left;
-    position:relative;
-    height: 50rem;
-    width: 50rem;
-}
+
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
@@ -183,5 +179,63 @@ main {
   {
     left: 0px;
   }
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 .logoMain {
+    border-style: solid;
+    border-color: red;
+    height: 10rem;
+    width: 10rem;
+    padding:0;
+    margin:0;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.buttonInfo {
+  float: left;
+  width: 20%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  background-color: var(--bg-primary);
+}
+
+.containerTab {
+    width: 80%;
+  padding: 20px;
+  color: white;
+   display: none;
+    background-color: var(--bg-secondary);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: var(--text-primary);
+  font-size: 25px;
+  cursor: pointer;
+}
+.closebtn:hover {
+  color: var(--text-secondary);
+}
+.buttonInfo:hover {
+    color: var(--text-secondary);
 }
 
